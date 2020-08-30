@@ -45,7 +45,7 @@ Bidirectional-LSTM을 사용하였고 어텐션 메커니즘을 적용하여 욕
   
   때문에 예측을 위해선 fasttext 모델이 `embedding_models`폴더에 `fasttext.bin`이라는 이름으로 옮겨져 있어야 합니다.
   
-  fasttext 모델은 [여기](https://example.com)에서 다운로드받을 수 있습니다.
+  fasttext 모델은 [여기](https://drive.google.com/file/d/1AdE-_SrqF6if5BVC7QlwbZqX6HBJ8j9U/view?usp=sharing)에서 다운로드받을 수 있습니다.
   
 - **mfcc 임베딩**
 
@@ -58,7 +58,7 @@ Bidirectional-LSTM을 사용하였고 어텐션 메커니즘을 적용하여 욕
 # 사용법
 **fasttext 모델이 `embedding_models`폴더에 `fasttext.bin`이라는 이름으로 옮겨져 있어야 합니다.**
 
-**fasttext 모델은 [여기](https://example.com)에서 다운로드받을 수 있습니다.**
+**fasttext 모델은 [여기](https://drive.google.com/file/d/1AdE-_SrqF6if5BVC7QlwbZqX6HBJ8j9U/view?usp=sharing)에서 다운로드받을 수 있습니다.**
 ## 예측
 
 ```python3
