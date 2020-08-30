@@ -1,6 +1,6 @@
 # 모델을 학습한다.
 import models
-import dater
+import preprocessing
 import numpy as np
 import joblib
 
