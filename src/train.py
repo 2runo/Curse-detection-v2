@@ -6,7 +6,7 @@ import joblib
 
 
 # 데이터 전처리 및 분할
-pre = dater.Preprocessor()
+pre = preprocessing.Preprocessor()
 
 try:
     mfcc_x, mfcc_y, ft_x, ft_y = joblib.load('dataset/data.joblib')
