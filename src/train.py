@@ -37,7 +37,7 @@ except:
     pass
 
 # 학습
-model.fit([mfcc_xtrain, ft_xtrain], ytrain, validation_data=[[mfcc_xtest, ft_xtest], ytest],
+model.fit([mfcc_xtrain, ft_xtrain], ytrain, validation_data=([mfcc_xtest, ft_xtest], ytest),
           batch_size=28, epochs=100, verbose=1, shuffle=True, class_weight=class_weight)
 
 # 모델 저장
